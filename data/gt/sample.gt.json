@@ -2,7 +2,7 @@
   "schema_version": "cvn.gt.skeleton.v1",
   "project_id": "sample",
   "difficulty": "hard",
-  "_note": "Silver-standard GT converted from manually verified StructAgent project_semantic.json.",
+  "_note": "Silver-standard GT converted from manually verified BlueprintAgent project_semantic.json.",
   "floors": [
     {
       "floor_id": "F2_3_90m",

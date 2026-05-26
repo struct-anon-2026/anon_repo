@@ -12,7 +12,7 @@ aggregated.
   - **Ablation:** A3 (no cross-sheet aggregate), A4 (no C_3D gate),
     A5 (no axis-span sanity gate), A6 (no LLM axis adjudication).
   - **Baseline:** B1 (pure-OCR rule), B2 (single-VLM zero-shot).
-  - **Self-audit:** the full StructAgent run against its own ground truth
+  - **Self-audit:** the full BlueprintAgent run against its own ground truth
     (B5 row in Table 3).
 
 Approximately 140 JSON files in total when all cells × all 20 buildings

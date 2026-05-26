@@ -92,7 +92,7 @@ Schema version: `cvn.gt.skeleton.v1`.
 Applied internally to all 20 buildings (only the sample's result is
 released here):
 
-1. Run the full StructAgent pipeline on the building.
+1. Run the full BlueprintAgent pipeline on the building.
 2. Author manually cross-checks the output `project_semantic.json` against
    the source drawings, page by page.
 3. Corrections are applied directly in the JSON (axis labels, column

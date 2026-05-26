@@ -1,6 +1,6 @@
-"""StructAgent — agent interface stub.
+"""BlueprintAgent — agent interface stub.
 
-This module defines the *observable* interface of the StructAgent
+This module defines the *observable* interface of the BlueprintAgent
 H/E/C/Q loop, as described in the paper § 3-§ 4. It is intentionally a
 stub: the internal pipeline (~40 modules covering layout analysis, OCR
 caching, axis adjudication, cross-sheet aggregation, 3D consistency
@@ -94,8 +94,8 @@ class WorldModel:
 # ---------------------------------------------------------------------------
 
 
-class StructAgentProtocol(Protocol):
-    """The observable interface of the StructAgent loop.
+class BlueprintAgentProtocol(Protocol):
+    """The observable interface of the BlueprintAgent loop.
 
     Reference implementation is withheld; see paper § 3 and § 4 for the
     algorithm description.

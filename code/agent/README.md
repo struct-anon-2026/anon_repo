@@ -1,6 +1,6 @@
 # Agent Interface — Released Scope
 
-This directory contains the **observable interface** of the StructAgent
+This directory contains the **observable interface** of the BlueprintAgent
 agent loop, not the full pipeline implementation.
 
 ## What is here

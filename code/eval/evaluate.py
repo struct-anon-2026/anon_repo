@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""StructAgent project evaluator (self-audit mode).
+"""BlueprintAgent project evaluator (self-audit mode).
 
 This is a no-ground-truth evaluation harness that compares CVN v4E pipeline
 products against the project's own internal gates and produces a single
@@ -191,7 +191,7 @@ def evaluate(version_root: Path) -> dict[str, Any]:
 
 
 def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(description='StructAgent self-audit evaluator')
+    p = argparse.ArgumentParser(description='BlueprintAgent self-audit evaluator')
     p.add_argument('--version-root', required=True, help='projects/<id>/<building>/<run_ts>/<version>')
     p.add_argument('--out', required=True, help='output metrics.json path')
     p.add_argument('--print', action='store_true', help='also print to stdout')

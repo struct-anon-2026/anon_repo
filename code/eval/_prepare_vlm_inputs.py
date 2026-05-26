@@ -273,7 +273,7 @@ Each project directory contains:
 - `cut_metadata/`: tile plans and axis context files.
 - `gt/`: GT copy for post-hoc comparison only. Do not include it in the VLM context.
 
-The package deliberately excludes Stage2 inspect-region screenshots because many filenames contain target beam/column labels and would leak StructAgent's later decisions into the VLM baseline.
+The package deliberately excludes Stage2 inspect-region screenshots because many filenames contain target beam/column labels and would leak BlueprintAgent's later decisions into the VLM baseline.
 """
     write_text(out_dir / "README.md", text)
 

@@ -3,7 +3,7 @@
 This directory holds **one sample building** from the evaluation set —
 released as a redacted visual reference so that a reader can:
 
-- Inspect the input modality of StructAgent (what a scanned structural
+- Inspect the input modality of BlueprintAgent (what a scanned structural
   blueprint sheet looks like in practice, including beam plan and column
   plan sheets).
 - Reproduce the B2 (single-VLM zero-shot) baseline on a known input.
@@ -61,7 +61,7 @@ _raw_pre_redaction/                            ← (gitignored) un-redacted orig
 
 ## What you can do with the released sample
 
-- Visually inspect a real input to StructAgent across multiple sheet
+- Visually inspect a real input to BlueprintAgent across multiple sheet
   types for one building.
 - Run the VLM-only B2 baseline end-to-end on this building using
   `../../code/eval/_prepare_vlm_inputs.py` → your VLM API →
@@ -72,7 +72,7 @@ _raw_pre_redaction/                            ← (gitignored) un-redacted orig
 
 ## What the released sample alone does not let you do
 
-- Run the full StructAgent pipeline (the pipeline is withheld; see
+- Run the full BlueprintAgent pipeline (the pipeline is withheld; see
   `../../code/agent/README.md`).
 - Re-derive ablation cells A3–A6 or baseline B1 on other buildings;
   those are released as per-instance metrics only, and their per-entity

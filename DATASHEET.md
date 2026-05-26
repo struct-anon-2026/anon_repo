@@ -1,4 +1,4 @@
-# Datasheet — StructAgent Evaluation Set
+# Datasheet — BlueprintAgent Evaluation Set
 
 Following Gebru et al., *Datasheets for Datasets* (CACM 2021).
 For paper reviewers: this is the concise reference; the paper § 5.1 cites it.
@@ -8,7 +8,7 @@ For paper reviewers: this is the concise reference; the paper § 5.1 cites it.
 ## 1. Motivation
 
 **For what purpose was the dataset created?**
-To evaluate end-to-end performance of a multimodal agent (StructAgent) on
+To evaluate end-to-end performance of a multimodal agent (BlueprintAgent) on
 the task of reconstructing finite-element-ready frame representations from
 scanned structural blueprint sheets. No prior benchmark covers this
 end-to-end task (sheet → axis grid → columns → beams → 3D frame).
@@ -54,7 +54,7 @@ and a macro-average across the 20 buildings.
 
 **Are there any errors or noise?**
 The ground truth is "silver standard": derived from a manually verified
-StructAgent run, then cross-checked against the original drawings by the
+BlueprintAgent run, then cross-checked against the original drawings by the
 authors. Per-instance annotation effort: 2–6 hours per building.
 
 **Does the dataset contain confidential or sensitive information?**

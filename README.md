@@ -1,4 +1,4 @@
-# StructAgent — Anonymous Supplementary Repository
+# BlueprintAgent — Anonymous Supplementary Repository
 
 > Anonymous supplementary materials for our ARR May 2026 cycle submission
 > (preferred venue: EMNLP 2026 Main Conference).
