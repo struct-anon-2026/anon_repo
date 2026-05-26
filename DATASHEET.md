@@ -58,10 +58,11 @@ StructAgent run, then cross-checked against the original drawings by the
 authors. Per-instance annotation effort: 2–6 hours per building.
 
 **Does the dataset contain confidential or sensitive information?**
-The drawings do not contain personal identifying information. Some
-drawings carry design-institute stamps, project codes, or engineer
-signatures; these are masked in the released sample project. The
-underlying source drawings of the 19 non-sample buildings are not
+The drawings are of real building projects. They do not contain personal
+identifying information, but they may carry design-institute stamps,
+project codes, or engineer signatures that are commercially or
+contractually sensitive; these are masked in the released sample. The
+underlying source drawings of the non-sample buildings are not
 redistributed.
 
 ---
@@ -69,22 +70,26 @@ redistributed.
 ## 3. Collection
 
 **How was the data acquired?**
-Mixed sources, separated by redistribution constraint:
+All 20 buildings in the evaluation set are drawings of real building
+projects. They divide by redistribution constraint:
 
-- **Releasable subset (research-only license):** drawings from publicly
-  available teaching materials or open engineering references whose
-  redistribution under research-only terms is unambiguous. The single
-  released sample project (`data/samples/`) is drawn from this subset.
-- **Non-redistributable subset:** drawings whose redistribution rights are
-  unclear or restricted. Used internally for evaluation; **ground truth and
-  per-instance metrics are released** (these are derived statistics, not the
-  source drawings); the **source drawings themselves are not released**.
+- **Releasable subset (research-only license):** drawings whose
+  redistribution under research-only terms is unambiguous (e.g., where we
+  hold the rights directly, or where the source explicitly permits
+  research redistribution). The released sample (`data/samples/`) is drawn
+  from this subset.
+- **Non-redistributable subset:** drawings subject to engineering-design
+  intellectual-property, client-confidentiality, or third-party
+  redistribution restrictions. Used internally for evaluation; **ground
+  truth and per-instance metrics are released** (these are derived
+  statistics, not the source drawings); the **source drawings themselves
+  are not released**.
 
-Of the 20 buildings, the releasable subset is small (one sample project,
-approximately 10 sheets); the remaining 19 buildings fall under the
-non-redistributable subset. This release strategy is conservative by design
-and is grounded in the sensitivity considerations described above and in
-the paper § 5.1.
+The releasable subset is small (one building, the released sample); the
+remaining buildings fall under the non-redistributable subset. We do not
+identify which specific building was chosen as the sample, nor describe
+its difficulty or scale position within the evaluation set, to avoid
+both cherry-picking concerns and inadvertent narrow-identification.
 
 **Selection.** The 20-building evaluation set was assembled to maximize
 difficulty diversity (easy / medium / hard) while keeping manual annotation

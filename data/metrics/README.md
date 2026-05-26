@@ -40,9 +40,10 @@ values without per-entity GT leak.
 <project_id>__metrics.json                  (self-audit; B5 row)
 ```
 
-`<project_id>` ranges over the 20-building set (e.g., `16`, `81_1`,
-`81_2`, `81_4`, `378`, `383`, plus 14 additional buildings identified
-similarly).
+`<project_id>` ranges over the 20-building set. Each metrics file is
+self-describing through its embedded `project_id`, `cell`, and
+`inventory.{pred,gt}` fields; the prefix is just a label and carries
+no encoded information about which building it is.
 
 ## Schema
 

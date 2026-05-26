@@ -1,6 +1,6 @@
 {
   "schema_version": "cvn.gt.skeleton.v1",
-  "project_id": "378",
+  "project_id": "sample",
   "difficulty": "hard",
   "_note": "Silver-standard GT converted from manually verified StructAgent project_semantic.json.",
   "floors": [
@@ -9,35 +9,35 @@
       "floor_name": null,
       "elevation_m": 3.9,
       "height_m": 3.9,
-      "source_blueprint_id": "BP003_2层梁平面施工图"
+      "source_blueprint_id": "BP003"
     },
     {
       "floor_id": "F3_11_70m",
       "floor_name": null,
       "elevation_m": 11.7,
       "height_m": 3.9,
-      "source_blueprint_id": "BP004_3层梁平面施工图"
+      "source_blueprint_id": "BP004"
     },
     {
       "floor_id": "F4_15_60m",
       "floor_name": null,
       "elevation_m": 15.6,
       "height_m": 3.9,
-      "source_blueprint_id": "BP005_4_5层梁平面施工图"
+      "source_blueprint_id": "BP005"
     },
     {
       "floor_id": "F5_19_50m",
       "floor_name": null,
       "elevation_m": 19.5,
       "height_m": 3.6,
-      "source_blueprint_id": "BP005_4_5层梁平面施工图"
+      "source_blueprint_id": "BP005"
     },
     {
       "floor_id": "F6_23_10m",
       "floor_name": null,
       "elevation_m": 23.1,
       "height_m": 3.9,
-      "source_blueprint_id": "BP007_6层梁平面施工图"
+      "source_blueprint_id": "BP007"
     }
   ],
   "axes": {
@@ -6580,8 +6580,7 @@
       "C35"
     ],
     "floor_height_table": [
-      {
-        "floor_label": "1层",
+      {,
         "elevation_m": -0.05,
         "floor_height_m": 3.95,
         "beam_slab_concrete": null,
@@ -6590,12 +6589,11 @@
         "confidence": 0.96,
         "provenance": {
           "evidence_refs": [
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+            "<INTERNAL_PATH>"
           ]
         }
       },
-      {
-        "floor_label": "2层",
+      {,
         "elevation_m": 3.9,
         "floor_height_m": 3.9,
         "beam_slab_concrete": "C30",
@@ -6604,12 +6602,11 @@
         "confidence": 0.91,
         "provenance": {
           "evidence_refs": [
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+            "<INTERNAL_PATH>"
           ]
         }
       },
-      {
-        "floor_label": "3层",
+      {,
         "elevation_m": 11.7,
         "floor_height_m": 3.9,
         "beam_slab_concrete": "C30",
@@ -6618,13 +6615,11 @@
         "confidence": 0.7,
         "provenance": {
           "evidence_refs": [
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
-          ],
-          "note": "表中 2层=3.90、3层=11.70 与层高 3.90 存在算术冲突；本轮按标高列用于 FEM，冲突入 QA。"
+            "<INTERNAL_PATH>"
+          ]
         }
       },
-      {
-        "floor_label": "4层",
+      {,
         "elevation_m": 15.6,
         "floor_height_m": 3.9,
         "beam_slab_concrete": "C30",
@@ -6633,12 +6628,11 @@
         "confidence": 0.94,
         "provenance": {
           "evidence_refs": [
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+            "<INTERNAL_PATH>"
           ]
         }
       },
-      {
-        "floor_label": "5层",
+      {,
         "elevation_m": 19.5,
         "floor_height_m": 3.6,
         "beam_slab_concrete": "C30",
@@ -6647,12 +6641,11 @@
         "confidence": 0.94,
         "provenance": {
           "evidence_refs": [
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+            "<INTERNAL_PATH>"
           ]
         }
       },
-      {
-        "floor_label": "6层/屋面层",
+      {,
         "elevation_m": 23.1,
         "floor_height_m": 3.9,
         "beam_slab_concrete": "C30",
@@ -6661,14 +6654,12 @@
         "confidence": 0.86,
         "provenance": {
           "evidence_refs": [
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json",
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP006_5_6层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ7_region_evidence_region_evidence.json"
-          ],
-          "note": "梁图题名为六层梁配筋图；柱图/表中 23.10 为屋面层，本轮映射为 6层 FEM 层。"
+            "<INTERNAL_PATH>",
+            "<INTERNAL_PATH>"
+          ]
         }
       },
-      {
-        "floor_label": "屋顶层",
+      {,
         "elevation_m": 27.0,
         "floor_height_m": null,
         "beam_slab_concrete": null,
@@ -6677,18 +6668,18 @@
         "confidence": 0.7,
         "provenance": {
           "evidence_refs": [
-            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+            "<INTERNAL_PATH>"
           ]
         }
       }
     ],
     "aggregated_annotations": [
       "BP003/BP004/BP005/BP007 notes visually read beam concrete grade C30.",
-      "BP001 row 1层 column concrete C35; modeled floors F2-F6 use C30 per table/notes."
+      "BP001 row floor-1 column concrete C35; modeled floors F2-F6 use C30 per table/notes."
     ]
   },
   "provenance": {
-    "source_semantic": "projects\\378\\building_unknown\\20260524_121520_648927\\v001\\outputs\\final\\project_semantic.json",
+    "source_semantic": "projects\\sample\\building_unknown\\<TIMESTAMP>\\v001\\outputs\\final\\project_semantic.json",
     "source_schema_version": "cvn.project_semantic.v4E",
     "converted_at": "2026-05-24T17:17:03",
     "converter": "paper/gt/_build_gt_from_semantic.py"

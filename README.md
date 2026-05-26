@@ -4,22 +4,22 @@
 > (preferred venue: EMNLP 2026 Main Conference).
 >
 > This repository accompanies the paper. The full evaluation set consists of
-> **20 buildings (~300 scanned structural blueprint sheets)** — primarily
-> beam and column structural plans, with associated section and foundation
-> sheets.
+> **20 real-building projects (~300 scanned structural blueprint sheets)** —
+> primarily beam and column structural plans, with associated section and
+> foundation sheets.
 >
-> The released artifacts are structured around a **single sample project
-> (project 378 — the hardest building in the set: 5 floors, 103 beam
-> entities, 208 columns, 6 source sheets)** for end-to-end inspection,
-> plus per-instance metrics for the remaining buildings:
+> Because these are drawings of real building projects, **most are subject
+> to redistribution restrictions (engineering-design intellectual property,
+> client confidentiality, or third-party rights) and cannot be publicly
+> released.** The released artifacts are therefore structured around:
 >
-> - **For the sample project:** the redacted source sheets, the
->   ground-truth annotation JSON, the per-instance metrics for every
->   reported experiment cell, and the evaluation code.
-> - **For the other 19 buildings:** per-instance metrics JSON only (with
->   predicted/ground-truth inventory aggregates). Source drawings and
->   per-entity ground truth are withheld to be consistent with the
->   sample-only release of source drawings.
+> - **One sample building** for which we have unambiguous redistribution
+>   rights, released for end-to-end inspection: redacted source sheets,
+>   per-entity ground-truth annotation, and per-instance metrics for every
+>   experiment cell.
+> - **Per-instance metrics for the remaining buildings**, sufficient for
+>   reproducibility of the reported numbers without releasing the
+>   underlying drawings or per-entity ground truth.
 
 ## Contents
 
@@ -34,7 +34,7 @@
 │   │   ├── evaluate.py                    ← end-to-end metric computation
 │   │   ├── _evaluate_ablation.py          ← ablation cells A3–A6 + B1
 │   │   ├── _evaluate_vlm_baseline.py      ← B2 VLM-only baseline
-│   │   ├── _prepare_vlm_inputs.py         ← reproduce B2 inputs from the sample project
+│   │   ├── _prepare_vlm_inputs.py         ← reproduce B2 inputs from the sample
 │   │   ├── aggregate.py                   ← roll per-instance JSON into paper tables
 │   │   ├── requirements.txt
 │   │   └── README.md
@@ -45,10 +45,10 @@
 │   ├── metrics/                           ← per-instance metrics JSON (sanitized)
 │   │   ├── README.md
 │   │   └── *.json
-│   ├── gt/                                ← ONE ground-truth JSON (for sample project 378 only)
+│   ├── gt/                                ← ONE ground-truth JSON (the released sample only)
 │   │   ├── README.md
-│   │   └── 378.gt.json
-│   └── samples/                           ← project 378 — 6 redacted sheets, research-only
+│   │   └── *.gt.json
+│   └── samples/                           ← released sample — redacted sheets, research-only
 │       ├── README.md
 │       ├── MANIFEST.json
 │       └── sheet_NN_*.png
@@ -64,8 +64,8 @@
 # 1. install minimal deps
 pip install -r code/eval/requirements.txt
 
-# 2. inspect any per-instance metric
-python -c "import json; print(json.dumps(json.load(open('data/metrics/378__ablation_A3__metrics.json')), indent=2))"
+# 2. inspect any per-instance metric (replace <project_id> with any released id)
+python -c "import json, glob; print(glob.glob('data/metrics/*__metrics.json')[0])"
 
 # 3. (optional) re-derive an aggregate from the per-instance JSON
 python code/eval/aggregate.py --in data/metrics --out /tmp/table3.csv
@@ -80,19 +80,19 @@ artifact.
 
 Scope of released artifacts (per the paper § 5.1):
 
-- **One sample building**: complete release — redacted source sheets
-  (`data/samples/`), per-entity ground truth (`data/gt/<sample_id>.gt.json`),
-  per-instance metrics for every cell (`data/metrics/<sample_id>__*.json`).
-  Sufficient to re-derive a metric end-to-end and to evaluate your own
-  system on a known input.
-- **Other 19 buildings**: per-instance metrics JSON only. Each metrics
-  file includes inventory aggregates for both prediction and ground truth
-  (floor count, axis-grid size, column count, beam count), so cross-
-  building distribution can be inspected without releasing the per-entity
-  ground truth.
-- **Per-building summary** (floors, beam entities, columns, difficulty)
-  is reported in Table 1 of the paper, and can also be derived from the
-  inventory aggregates in `data/metrics/`.
+- **The released sample building**: complete bundle — redacted source
+  sheets (`data/samples/`), per-entity ground truth (`data/gt/`),
+  per-instance metrics for every cell (`data/metrics/`). Sufficient to
+  re-derive a metric end-to-end and to evaluate your own system on a
+  known input.
+- **Other buildings in the evaluation set**: per-instance metrics JSON
+  only. Each metrics file includes inventory aggregates for both
+  prediction and ground truth (floor count, axis-grid size, column
+  count, beam count), so cross-building distribution can be inspected
+  without releasing per-entity ground truth.
+- **Per-building summary** (floors, beams, columns) is reported in
+  Table 1 of the paper, and can also be derived from the inventory
+  aggregates in `data/metrics/`.
 
 ## What is **not** included and why
 
@@ -100,26 +100,25 @@ The released artifacts are sufficient to verify the reported metric values,
 but intentionally do not allow full pipeline re-execution. The full system,
 the full drawing corpus, and intermediate outputs are withheld because:
 
-1. **Drawing copyright is mixed and overall sensitivity is high.** Some
-   inputs come from teaching materials or open engineering references we
-   can redistribute under research-only terms; others come from sources we
-   do not have unrestricted redistribution rights to. Releasing the full
-   ~300-sheet corpus is therefore not possible. We release one carefully
-   redacted sample project drawn from the releasable subset, together
-   with its per-entity ground truth — and for consistency we **also
-   withhold the per-entity ground truth of the other 19 buildings**,
-   because that ground truth encodes the structural skeleton (axis grid,
-   column positions, beam topology, section labels) of buildings whose
-   source drawings we cannot redistribute. Inventory aggregates for those
-   buildings are still released through the per-instance metrics JSON.
+1. **The drawings are of real building projects.** Most are subject to
+   redistribution restrictions (engineering-design IP, client
+   confidentiality, third-party rights). Releasing the full corpus is
+   therefore not possible. We release one building for which we have
+   unambiguous redistribution rights, together with its per-entity
+   ground truth — and for consistency we **also withhold the per-entity
+   ground truth of the other buildings**, because that ground truth
+   encodes the structural skeleton (axis grid, column positions, beam
+   topology, section labels) of buildings whose source drawings we
+   cannot redistribute. Inventory aggregates for those buildings are
+   still released through the per-instance metrics JSON.
 2. **The agent pipeline includes engineering-oriented components** (CV
-   preprocessing, OCR caching, FEM export) whose full release exceeds the
-   scope and length of the paper. The paper specifies the externally
-   observable behavior; the agent interface stub in `code/agent/` documents
-   the I/O contract sufficient for reimplementation.
-3. **Intermediate per-sandbox outputs** total several hundred GB and contain
-   raw VLM call traces that may carry incidental identifying information
-   from the underlying drawings; we do not redistribute them.
+   preprocessing, OCR caching, FEM export) whose full release exceeds
+   the scope and length of the paper. The paper specifies the externally
+   observable behavior; the agent interface stub in `code/agent/`
+   documents the I/O contract sufficient for reimplementation.
+3. **Intermediate per-sandbox outputs** total several hundred GB and
+   contain raw VLM call traces that may carry incidental identifying
+   information from the underlying drawings; we do not redistribute them.
 
 See `DATASHEET.md` § "Distribution" and the paper § 5.1 ("Dataset") for the
 full discussion.
@@ -127,12 +126,11 @@ full discussion.
 ## Requesting further access
 
 After the review period, qualified researchers may request access to
-additional buildings from the 20-building set — either drawings or
-per-entity ground truth — on a case-by-case basis, subject to the
-redistribution constraints of each source. Requests should briefly
-describe the intended research use. The full corpus will not be released
-publicly. This anonymous repository will provide contact details after
-acceptance.
+additional buildings (drawings and/or per-entity ground truth) on a
+case-by-case basis, subject to the redistribution constraints of each
+source. Requests should briefly describe the intended research use. The
+full corpus will not be released publicly. This anonymous repository will
+provide contact details after acceptance.
 
 ## License
 

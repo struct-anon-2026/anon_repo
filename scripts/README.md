@@ -14,11 +14,11 @@ before submitting the anonymous link to anonymous.4open.science.
 ## Usage
 
 ```bash
-# 1. Copy fresh metrics + the sample project's GT from the source repo.
-#    --sample-id <project_id> = which one building is released visually.
-#    Only that GT is copied; the other 19 buildings' GT is intentionally
-#    withheld for consistency with the drawing-release policy.
-python scripts/sanitize.py --src ../../ --dst . --sample-id 378 --strict
+# 1. Copy fresh metrics + the released sample's GT from the source repo.
+#    --sample-id <id> = the project id of the building you've selected
+#    to release as a visual sample. Only that GT is copied; the other
+#    buildings' per-entity GT is intentionally withheld.
+python scripts/sanitize.py --src ../../ --dst . --sample-id <id> --strict
 
 # 2. Audit — must return 0 hits.
 python scripts/audit_anonymity.py --root .

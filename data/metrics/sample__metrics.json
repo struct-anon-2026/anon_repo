@@ -1,10 +1,10 @@
 {
   "schema_version": "cvn.eval.self_audit.v4E.1.0",
   "mode": "self_audit",
-  "version_root": "<REPO_ROOT>/projects\\378\\building_unknown\\20260524_121520_648927\\v001",
+  "version_root": "<REPO_ROOT>/projects\\sample\\building_unknown\\<TIMESTAMP>\\v001",
   "project": {
-    "project_key": "378",
-    "name": "378",
+    "project_key": "sample",
+    "name": "sample",
     "status": "ready_with_adjudication_items"
   },
   "inventory": {

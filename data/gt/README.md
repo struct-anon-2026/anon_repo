@@ -26,20 +26,23 @@ leak.
 ## Files
 
 ```
-378.gt.json     ← per-entity ground truth for the released sample project
-README.md               ← you are here
+*.gt.json     ← per-entity ground truth for the released sample building
+README.md     ← you are here
 ```
 
-Project `378` is the building released under `../samples/`; its
-per-instance metrics for every ablation/baseline cell are in
-`../metrics/378__*.json`. The full sheet-to-floor mapping is in
+This GT file shares its project_id prefix with the matching per-instance
+metrics in `../metrics/<id>__*.json` and with the released source
+sheets in `../samples/`. The full sheet-to-floor mapping is in
 `../samples/MANIFEST.json`.
 
-It was selected as the sample because it is the most complex building
-in the evaluation set (5 floors, 103 beam entities, 208 columns,
-`hard` difficulty) and because its source sheets carry no project code
-or institution name in their original filenames, minimizing redaction
-risk.
+The released sample is the one building in the evaluation set for which
+we have unambiguous redistribution rights under research-only terms. We
+do not describe its specific project id, scale, or difficulty position
+within the evaluation set — those characterizations could either be
+read as cherry-picking or could inadvertently narrow-identify the
+building. The released GT (this file) and per-instance metrics
+(`../metrics/`) are sufficient for any quantitative analysis a reader
+needs.
 
 Schema version: `cvn.gt.skeleton.v1`.
 
@@ -53,7 +56,7 @@ Schema version: `cvn.gt.skeleton.v1`.
   "floors": [
     {
       "floor_id": "<string>",
-      "floor_name": "<string, e.g. '5.350m梁平法施工图' meaning 'beam plan at +5.350m elevation'>",
+      "floor_name": "<string, e.g. 'beam plan at +5.350m elevation' — may be null if not specified>",
       "elevation_m": <float>,
       "height_m": <float | null>,
       "source_blueprint_id": "<string, internal sheet ID>"

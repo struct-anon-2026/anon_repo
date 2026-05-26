@@ -1,10 +1,10 @@
 {
   "schema_version": "cvn.ablation_eval.v1",
-  "project_id": "378",
+  "project_id": "sample",
   "cell": "A6",
   "exp_root": "<SANDBOX>/exp_A6_5",
   "semantic_path": "<SANDBOX>/exp_A6_5/.../project_semantic.json",
-  "gt_path": "data/gt/378.gt.json",
+  "gt_path": "data/gt/sample.gt.json",
   "status": "OK",
   "floor_alignment": {
     "F1_F2_F3_F4": "F1_F2_F3_F4",
