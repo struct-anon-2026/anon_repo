@@ -1,0 +1,120 @@
+{
+  "schema_version": "cvn.eval.self_audit.v4E.1.0",
+  "mode": "self_audit",
+  "version_root": "<REPO_ROOT>/projects\\81_4\\building_unknown\\20260524_120219_166820\\v001",
+  "project": {
+    "project_key": "81_4",
+    "name": "81_4",
+    "status": "ready_with_adjudication_items"
+  },
+  "inventory": {
+    "building_count": 1,
+    "floor_count": 2,
+    "blueprint_count": 8,
+    "total_beam_entities": 20,
+    "total_beam_fem_segments": 67,
+    "total_columns": 50,
+    "per_floor": [
+      {
+        "floor_id": "F1_H_-0_100m",
+        "elevation_m": 0.0,
+        "beam_entities": 11,
+        "beam_fem_segments": 38,
+        "beams_with_node_sequence": 11,
+        "columns": 25
+      },
+      {
+        "floor_id": "F2_H_4_150m",
+        "elevation_m": 4.25,
+        "beam_entities": 9,
+        "beam_fem_segments": 29,
+        "beams_with_node_sequence": 9,
+        "columns": 25
+      }
+    ]
+  },
+  "gate": {
+    "ok": true,
+    "status": "ready_with_adjudication_items",
+    "error_count": 0,
+    "warning_count": 0,
+    "quality_gates": {
+      "schema_valid": true,
+      "geometry_valid": true,
+      "evidence_valid": true,
+      "axis_cv_adoption_valid": true,
+      "axis_span_reading_valid": true,
+      "axis_px_span_ratio_valid": true
+    }
+  },
+  "axis_double_audit": {
+    "per_floor": [
+      {
+        "floor_id": "F1_H_-0_100m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 12,
+        "accepted": 12,
+        "rejected": 0,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      },
+      {
+        "floor_id": "F2_H_4_150m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 12,
+        "accepted": 12,
+        "rejected": 0,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      }
+    ],
+    "project_cv_vs_llm_max_dpx": null
+  },
+  "span_adjudication": {
+    "per_floor": [
+      {
+        "floor_id": "F1_H_-0_100m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading_with_dimension_evidence",
+        "x_evidence_count": 1,
+        "y_evidence_count": 1
+      },
+      {
+        "floor_id": "F2_H_4_150m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading_with_dimension_evidence",
+        "x_evidence_count": 1,
+        "y_evidence_count": 1
+      }
+    ]
+  },
+  "c3d": {
+    "present": true,
+    "ok": true,
+    "error_count": 0,
+    "detail": {
+      "column_vertical_continuity": true,
+      "beam_endpoint_support": true,
+      "floor_height_monotonic": true,
+      "component_completeness": true
+    }
+  },
+  "fem": {
+    "present": true,
+    "ok": true,
+    "nodes_count": 75,
+    "elements_count": 117,
+    "concrete_grade": "C30"
+  },
+  "opensees_solver": {
+    "present": true,
+    "analyze_return_code": 0,
+    "ok": true,
+    "max_displacement_m": 9.8e-05,
+    "max_displacement_at_node": 69
+  }
+}

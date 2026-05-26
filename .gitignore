@@ -1,0 +1,68 @@
+# --- Protect identity ---
+.env
+.env.*
+*.pem
+*.key
+.ssh/
+*credentials*
+*secret*
+
+# --- Protect raw data not for release ---
+# Original full-resolution drawings (Category B sources)
+data/raw_drawings/
+data/full_set/
+data/intermediate/
+projects/
+*.dwg
+*.dxf
+
+# Sample project's UN-redacted originals (staged for manual redaction;
+# NEVER push these; only the redacted PNGs in data/samples/sheet_*.png ship)
+data/samples/_raw_pre_redaction/
+
+# Pipeline sandboxes (300+ GB internal experiment dirs)
+exp_*/
+sandbox/
+shadow_workspaces/
+
+# Full system outputs (contain incidental drawing content)
+**/project_semantic.json
+!data/gt/*.gt.json
+**/fem_export.json
+**/opensees_model.tcl
+**/analysis_log.*
+
+# --- Standard cruft ---
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.venv/
+venv/
+
+# --- Editor / IDE / OS leaks (paths may carry username) ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- LaTeX build artifacts (don't ship here, paper is elsewhere) ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+
+# --- Anything labelled DO_NOT_SHIP ---
+**/DO_NOT_SHIP*
+**/INTERNAL_*
+**/HANDOFF_*

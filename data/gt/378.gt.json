@@ -1,0 +1,6696 @@
+{
+  "schema_version": "cvn.gt.skeleton.v1",
+  "project_id": "378",
+  "difficulty": "hard",
+  "_note": "Silver-standard GT converted from manually verified StructAgent project_semantic.json.",
+  "floors": [
+    {
+      "floor_id": "F2_3_90m",
+      "floor_name": null,
+      "elevation_m": 3.9,
+      "height_m": 3.9,
+      "source_blueprint_id": "BP003_2层梁平面施工图"
+    },
+    {
+      "floor_id": "F3_11_70m",
+      "floor_name": null,
+      "elevation_m": 11.7,
+      "height_m": 3.9,
+      "source_blueprint_id": "BP004_3层梁平面施工图"
+    },
+    {
+      "floor_id": "F4_15_60m",
+      "floor_name": null,
+      "elevation_m": 15.6,
+      "height_m": 3.9,
+      "source_blueprint_id": "BP005_4_5层梁平面施工图"
+    },
+    {
+      "floor_id": "F5_19_50m",
+      "floor_name": null,
+      "elevation_m": 19.5,
+      "height_m": 3.6,
+      "source_blueprint_id": "BP005_4_5层梁平面施工图"
+    },
+    {
+      "floor_id": "F6_23_10m",
+      "floor_name": null,
+      "elevation_m": 23.1,
+      "height_m": 3.9,
+      "source_blueprint_id": "BP007_6层梁平面施工图"
+    }
+  ],
+  "axes": {
+    "horizontal": [
+      {
+        "label": "1",
+        "position_norm": 0.0,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "2",
+        "position_norm": 0.1164,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "3",
+        "position_norm": 0.149,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "4",
+        "position_norm": 0.2709,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "5",
+        "position_norm": 0.3929,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "6",
+        "position_norm": 0.5148,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "7",
+        "position_norm": 0.637,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "8",
+        "position_norm": 0.7589,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "9",
+        "position_norm": 0.8808,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "10",
+        "position_norm": 1.0,
+        "source_floor": "F2_3_90m"
+      }
+    ],
+    "vertical": [
+      {
+        "label": "A",
+        "position_norm": 1.0,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "B",
+        "position_norm": 0.91,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "C",
+        "position_norm": 0.716,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "D",
+        "position_norm": 0.5169,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "E",
+        "position_norm": 0.4212,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "F",
+        "position_norm": 0.3242,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "G",
+        "position_norm": 0.3101,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "H",
+        "position_norm": 0.2361,
+        "source_floor": "F2_3_90m"
+      },
+      {
+        "label": "J",
+        "position_norm": 0.0,
+        "source_floor": "F2_3_90m"
+      }
+    ]
+  },
+  "columns": [
+    {
+      "id": "F2_3_90m_COL_1-B",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        943,
+        2114
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_1-C",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        943,
+        1810
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_1-D",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        943,
+        1498
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_1-F",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        943,
+        1196
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_1-G",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "G",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        943,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_1-H",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        943,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_1-J",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "J",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        943,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_10-E",
+      "kz_type": "KZ3",
+      "axis_h": "10",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        4191,
+        1348
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_10-G",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        4191,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_10-H",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "H",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        4191,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_10-J",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "J",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        4191,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_2-B",
+      "kz_type": "KZ5",
+      "axis_h": "2",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1321,
+        2114
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_2-C",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1321,
+        1810
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_2-D",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1321,
+        1498
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_2-F",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "F",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1321,
+        1196
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_2-G",
+      "kz_type": "KZ3",
+      "axis_h": "2",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1321,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_2-H",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1321,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_2-J",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1321,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_3-B",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1427,
+        2114
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_3-C",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "C",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1427,
+        1810
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_3-D",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "D",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1427,
+        1498
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_3-F",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1427,
+        1196
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_3-G",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1427,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_3-H",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1427,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_3-J",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1427,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_4-G",
+      "kz_type": "KZ4",
+      "axis_h": "4",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1823,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_4-H",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1823,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_4-J",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        1823,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_5-G",
+      "kz_type": "KZ4",
+      "axis_h": "5",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        2219,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_5-H",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        2219,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_5-J",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        2219,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_6-G",
+      "kz_type": "KZ4",
+      "axis_h": "6",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        2615,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_6-H",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        2615,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_6-J",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        2615,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_7-G",
+      "kz_type": "KZ4",
+      "axis_h": "7",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3012,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_7-H",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3012,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_7-J",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3012,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_8-G",
+      "kz_type": "KZ4",
+      "axis_h": "8",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3408,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_8-H",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3408,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_8-J",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3408,
+        688
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_9-E",
+      "kz_type": "KZ3",
+      "axis_h": "9",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3804,
+        1348
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_9-G",
+      "kz_type": "KZ1",
+      "axis_h": "9",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3804,
+        1174
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_9-H",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3804,
+        1058
+      ]
+    },
+    {
+      "id": "F2_3_90m_COL_9-J",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F2_3_90m",
+      "sheet_id": "BP003",
+      "center_px": [
+        3804,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_1-B",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        943,
+        2114
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_1-C",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        943,
+        1810
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_1-D",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        943,
+        1498
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_1-F",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        943,
+        1196
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_1-G",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "G",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        943,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_1-H",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        943,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_1-J",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "J",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        943,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_10-E",
+      "kz_type": "KZ3",
+      "axis_h": "10",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        4191,
+        1348
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_10-G",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        4191,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_10-H",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "H",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        4191,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_10-J",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "J",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        4191,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_2-B",
+      "kz_type": "KZ5",
+      "axis_h": "2",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1321,
+        2114
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_2-C",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1321,
+        1810
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_2-D",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1321,
+        1498
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_2-F",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "F",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1321,
+        1196
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_2-G",
+      "kz_type": "KZ3",
+      "axis_h": "2",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1321,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_2-H",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1321,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_2-J",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1321,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_3-B",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1427,
+        2114
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_3-C",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "C",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1427,
+        1810
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_3-D",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "D",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1427,
+        1498
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_3-F",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1427,
+        1196
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_3-G",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1427,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_3-H",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1427,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_3-J",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1427,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_4-G",
+      "kz_type": "KZ4",
+      "axis_h": "4",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1823,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_4-H",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1823,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_4-J",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        1823,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_5-G",
+      "kz_type": "KZ4",
+      "axis_h": "5",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        2219,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_5-H",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        2219,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_5-J",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        2219,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_6-G",
+      "kz_type": "KZ4",
+      "axis_h": "6",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        2615,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_6-H",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        2615,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_6-J",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        2615,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_7-G",
+      "kz_type": "KZ4",
+      "axis_h": "7",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3012,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_7-H",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3012,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_7-J",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3012,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_8-G",
+      "kz_type": "KZ4",
+      "axis_h": "8",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3408,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_8-H",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3408,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_8-J",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3408,
+        688
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_9-E",
+      "kz_type": "KZ3",
+      "axis_h": "9",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3804,
+        1348
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_9-G",
+      "kz_type": "KZ1",
+      "axis_h": "9",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3804,
+        1174
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_9-H",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3804,
+        1058
+      ]
+    },
+    {
+      "id": "F3_11_70m_COL_9-J",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F3_11_70m",
+      "sheet_id": "BP004",
+      "center_px": [
+        3804,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_1-B",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        2114
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_1-C",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1810
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_1-D",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1498
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_1-F",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1196
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_1-G",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "G",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_1-H",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_1-J",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "J",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_10-E",
+      "kz_type": "KZ3",
+      "axis_h": "10",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        1348
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_10-G",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_10-H",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "H",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_10-J",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "J",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_2-B",
+      "kz_type": "KZ5",
+      "axis_h": "2",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        2114
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_2-C",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1810
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_2-D",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1498
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_2-F",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "F",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1196
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_2-G",
+      "kz_type": "KZ3",
+      "axis_h": "2",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_2-H",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_2-J",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_3-B",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        2114
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_3-C",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "C",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1810
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_3-D",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "D",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1498
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_3-F",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1196
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_3-G",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_3-H",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_3-J",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_4-G",
+      "kz_type": "KZ4",
+      "axis_h": "4",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1823,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_4-H",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1823,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_4-J",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1823,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_5-G",
+      "kz_type": "KZ4",
+      "axis_h": "5",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2219,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_5-H",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2219,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_5-J",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2219,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_6-G",
+      "kz_type": "KZ4",
+      "axis_h": "6",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2615,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_6-H",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2615,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_6-J",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2615,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_7-G",
+      "kz_type": "KZ4",
+      "axis_h": "7",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3012,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_7-H",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3012,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_7-J",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3012,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_8-G",
+      "kz_type": "KZ4",
+      "axis_h": "8",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3408,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_8-H",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3408,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_8-J",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3408,
+        688
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_9-E",
+      "kz_type": "KZ3",
+      "axis_h": "9",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        1348
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_9-G",
+      "kz_type": "KZ1",
+      "axis_h": "9",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        1174
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_9-H",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        1058
+      ]
+    },
+    {
+      "id": "F4_15_60m_COL_9-J",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F4_15_60m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_1-B",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        2114
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_1-C",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1810
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_1-D",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1498
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_1-F",
+      "kz_type": "KZ3",
+      "axis_h": "1",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1196
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_1-G",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "G",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_1-H",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_1-J",
+      "kz_type": "KZ6",
+      "axis_h": "1",
+      "axis_v": "J",
+      "section": {
+        "w": 650,
+        "h": 650
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        943,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_10-E",
+      "kz_type": "KZ3",
+      "axis_h": "10",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        1348
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_10-G",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_10-H",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "H",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_10-J",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "J",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        4191,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_2-B",
+      "kz_type": "KZ5",
+      "axis_h": "2",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        2114
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_2-C",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "C",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1810
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_2-D",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "D",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1498
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_2-F",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "F",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1196
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_2-G",
+      "kz_type": "KZ3",
+      "axis_h": "2",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_2-H",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_2-J",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1321,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_3-B",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "B",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        2114
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_3-C",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "C",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1810
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_3-D",
+      "kz_type": "KZ5",
+      "axis_h": "3",
+      "axis_v": "D",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1498
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_3-F",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "F",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1196
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_3-G",
+      "kz_type": "KZ3",
+      "axis_h": "3",
+      "axis_v": "G",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_3-H",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_3-J",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1427,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_4-G",
+      "kz_type": "KZ4",
+      "axis_h": "4",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1823,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_4-H",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1823,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_4-J",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        1823,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_5-G",
+      "kz_type": "KZ4",
+      "axis_h": "5",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2219,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_5-H",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2219,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_5-J",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2219,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_6-G",
+      "kz_type": "KZ4",
+      "axis_h": "6",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2615,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_6-H",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2615,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_6-J",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        2615,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_7-G",
+      "kz_type": "KZ4",
+      "axis_h": "7",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3012,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_7-H",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3012,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_7-J",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3012,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_8-G",
+      "kz_type": "KZ4",
+      "axis_h": "8",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3408,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_8-H",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3408,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_8-J",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3408,
+        688
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_9-E",
+      "kz_type": "KZ3",
+      "axis_h": "9",
+      "axis_v": "E",
+      "section": {
+        "w": 600,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        1348
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_9-G",
+      "kz_type": "KZ1",
+      "axis_h": "9",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        1174
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_9-H",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "H",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        1058
+      ]
+    },
+    {
+      "id": "F5_19_50m_COL_9-J",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "J",
+      "section": {
+        "w": 700,
+        "h": 600
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F5_19_50m",
+      "sheet_id": "BP005",
+      "center_px": [
+        3804,
+        688
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_1-G",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        943,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_1-H",
+      "kz_type": "KZ1",
+      "axis_h": "1",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        943,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_1-J",
+      "kz_type": "KZ4",
+      "axis_h": "1",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        943,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_10-E",
+      "kz_type": "KZ4",
+      "axis_h": "10",
+      "axis_v": "E",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        4191,
+        1772
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_10-G",
+      "kz_type": "KZ1",
+      "axis_h": "10",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        4191,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_10-H",
+      "kz_type": "KZ2",
+      "axis_h": "10",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        4191,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_10-J",
+      "kz_type": "KZ5",
+      "axis_h": "10",
+      "axis_v": "J",
+      "section": {
+        "w": 350,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        4191,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_2-G",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1321,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_2-H",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1321,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_2-J",
+      "kz_type": "KZ1",
+      "axis_h": "2",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1321,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_3-G",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1427,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_3-H",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1427,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_3-J",
+      "kz_type": "KZ1",
+      "axis_h": "3",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1427,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_4-G",
+      "kz_type": "KZ3",
+      "axis_h": "4",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1823,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_4-H",
+      "kz_type": "KZ1",
+      "axis_h": "4",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1823,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_4-J",
+      "kz_type": "KZ2",
+      "axis_h": "4",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        1823,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_5-G",
+      "kz_type": "KZ3",
+      "axis_h": "5",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        2219,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_5-H",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        2219,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_5-J",
+      "kz_type": "KZ2",
+      "axis_h": "5",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        2219,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_6-G",
+      "kz_type": "KZ3",
+      "axis_h": "6",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        2615,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_6-H",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        2615,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_6-J",
+      "kz_type": "KZ2",
+      "axis_h": "6",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        2615,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_7-G",
+      "kz_type": "KZ3",
+      "axis_h": "7",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3012,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_7-H",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3012,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_7-J",
+      "kz_type": "KZ2",
+      "axis_h": "7",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3012,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_8-G",
+      "kz_type": "KZ3",
+      "axis_h": "8",
+      "axis_v": "G",
+      "section": {
+        "w": 800,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3408,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_8-H",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3408,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_8-J",
+      "kz_type": "KZ2",
+      "axis_h": "8",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3408,
+        1112
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_9-E",
+      "kz_type": "KZ1",
+      "axis_h": "9",
+      "axis_v": "E",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3804,
+        1772
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_9-G",
+      "kz_type": "KZ1",
+      "axis_h": "9",
+      "axis_v": "G",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3804,
+        1596
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_9-H",
+      "kz_type": "KZ2",
+      "axis_h": "9",
+      "axis_v": "H",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3804,
+        1482
+      ]
+    },
+    {
+      "id": "F6_23_10m_COL_9-J",
+      "kz_type": "KZ4",
+      "axis_h": "9",
+      "axis_v": "J",
+      "section": {
+        "w": 500,
+        "h": 500
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "floor": "F6_23_10m",
+      "sheet_id": "BP007",
+      "center_px": [
+        3804,
+        1112
+      ]
+    }
+  ],
+  "beams": [
+    {
+      "id": "F2_3_90m_BM_KL18_J",
+      "floor": "F2_3_90m",
+      "label": "KL18(9)",
+      "direction": "x",
+      "grid_axis": "J",
+      "start_node": "1-J",
+      "end_node": "10-J",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL17_H_L",
+      "floor": "F2_3_90m",
+      "label": "KL17(2)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "1-H",
+      "end_node": "3-H",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL16_H_R",
+      "floor": "F2_3_90m",
+      "label": "KL16(7)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "3-H",
+      "end_node": "10-H",
+      "support_axes": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 7,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL15_G",
+      "floor": "F2_3_90m",
+      "label": "KL15(9)",
+      "direction": "x",
+      "grid_axis": "G",
+      "start_node": "1-G",
+      "end_node": "10-G",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL14_F",
+      "floor": "F2_3_90m",
+      "label": "KL14(2)",
+      "direction": "x",
+      "grid_axis": "F",
+      "start_node": "1-F",
+      "end_node": "3-F",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL13_E",
+      "floor": "F2_3_90m",
+      "label": "KL13(1A)",
+      "direction": "x",
+      "grid_axis": "E",
+      "start_node": "9-E",
+      "end_node": "10-E",
+      "support_axes": [
+        "9",
+        "10"
+      ],
+      "span_count": 1,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL12_D",
+      "floor": "F2_3_90m",
+      "label": "KL12(2)",
+      "direction": "x",
+      "grid_axis": "D",
+      "start_node": "1-D",
+      "end_node": "3-D",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL11_C",
+      "floor": "F2_3_90m",
+      "label": "KL11(2)",
+      "direction": "x",
+      "grid_axis": "C",
+      "start_node": "1-C",
+      "end_node": "3-C",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL10_B",
+      "floor": "F2_3_90m",
+      "label": "KL10(2)",
+      "direction": "x",
+      "grid_axis": "B",
+      "start_node": "1-B",
+      "end_node": "3-B",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL1_X1_LOW",
+      "floor": "F2_3_90m",
+      "label": "KL1(3A)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-B",
+      "end_node": "1-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL3_X2_LOW",
+      "floor": "F2_3_90m",
+      "label": "KL3(3A)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-B",
+      "end_node": "2-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL5_X3_LOW",
+      "floor": "F2_3_90m",
+      "label": "KL5(3A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-B",
+      "end_node": "3-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL2_X1_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL2(2)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-G",
+      "end_node": "1-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL4_X2_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL4(2)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-G",
+      "end_node": "2-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL6_X3_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL6(2A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-G",
+      "end_node": "3-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL7_X4_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "4",
+      "start_node": "4-G",
+      "end_node": "4-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL7_X5_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "5",
+      "start_node": "5-G",
+      "end_node": "5-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL7_X6_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "6",
+      "start_node": "6-G",
+      "end_node": "6-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL7_X7_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "7",
+      "start_node": "7-G",
+      "end_node": "7-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL7_X8_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "8",
+      "start_node": "8-G",
+      "end_node": "8-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL8_X9_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL8(3A)",
+      "direction": "y",
+      "grid_axis": "9",
+      "start_node": "9-E",
+      "end_node": "9-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F2_3_90m_BM_KL9_X10_TOP",
+      "floor": "F2_3_90m",
+      "label": "KL9(3A)",
+      "direction": "y",
+      "grid_axis": "10",
+      "start_node": "10-E",
+      "end_node": "10-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP003"
+    },
+    {
+      "id": "F3_11_70m_BM_KL18_J",
+      "floor": "F3_11_70m",
+      "label": "KL18(9)",
+      "direction": "x",
+      "grid_axis": "J",
+      "start_node": "1-J",
+      "end_node": "10-J",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL17_H_L",
+      "floor": "F3_11_70m",
+      "label": "KL17(2)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "1-H",
+      "end_node": "3-H",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL16_H_R",
+      "floor": "F3_11_70m",
+      "label": "KL16(7)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "3-H",
+      "end_node": "10-H",
+      "support_axes": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 7,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL15_G",
+      "floor": "F3_11_70m",
+      "label": "KL15(9)",
+      "direction": "x",
+      "grid_axis": "G",
+      "start_node": "1-G",
+      "end_node": "10-G",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL14_F",
+      "floor": "F3_11_70m",
+      "label": "KL14(2)",
+      "direction": "x",
+      "grid_axis": "F",
+      "start_node": "1-F",
+      "end_node": "3-F",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL13_E",
+      "floor": "F3_11_70m",
+      "label": "KL13(1)",
+      "direction": "x",
+      "grid_axis": "E",
+      "start_node": "9-E",
+      "end_node": "10-E",
+      "support_axes": [
+        "9",
+        "10"
+      ],
+      "span_count": 1,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL12_D",
+      "floor": "F3_11_70m",
+      "label": "KL12(2)",
+      "direction": "x",
+      "grid_axis": "D",
+      "start_node": "1-D",
+      "end_node": "3-D",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL11_C",
+      "floor": "F3_11_70m",
+      "label": "KL11(2)",
+      "direction": "x",
+      "grid_axis": "C",
+      "start_node": "1-C",
+      "end_node": "3-C",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL10_B",
+      "floor": "F3_11_70m",
+      "label": "KL10(2)",
+      "direction": "x",
+      "grid_axis": "B",
+      "start_node": "1-B",
+      "end_node": "3-B",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL1_X1_LOW",
+      "floor": "F3_11_70m",
+      "label": "KL1(3A)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-B",
+      "end_node": "1-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL3_X2_LOW",
+      "floor": "F3_11_70m",
+      "label": "KL3(3A)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-B",
+      "end_node": "2-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL5_X3_LOW",
+      "floor": "F3_11_70m",
+      "label": "KL5(3A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-B",
+      "end_node": "3-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL2_X1_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL2(2)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-G",
+      "end_node": "1-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL4_X2_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL4(2)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-G",
+      "end_node": "2-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL6_X3_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL6(2A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-G",
+      "end_node": "3-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL7_X4_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "4",
+      "start_node": "4-G",
+      "end_node": "4-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL7_X5_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "5",
+      "start_node": "5-G",
+      "end_node": "5-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL7_X6_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "6",
+      "start_node": "6-G",
+      "end_node": "6-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL7_X7_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "7",
+      "start_node": "7-G",
+      "end_node": "7-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL7_X8_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "8",
+      "start_node": "8-G",
+      "end_node": "8-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL8_X9_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL8(3)",
+      "direction": "y",
+      "grid_axis": "9",
+      "start_node": "9-E",
+      "end_node": "9-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F3_11_70m_BM_KL9_X10_TOP",
+      "floor": "F3_11_70m",
+      "label": "KL9(3A)",
+      "direction": "y",
+      "grid_axis": "10",
+      "start_node": "10-E",
+      "end_node": "10-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP004"
+    },
+    {
+      "id": "F4_15_60m_BM_KL18_J",
+      "floor": "F4_15_60m",
+      "label": "KL18(9)",
+      "direction": "x",
+      "grid_axis": "J",
+      "start_node": "1-J",
+      "end_node": "10-J",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL17_H_L",
+      "floor": "F4_15_60m",
+      "label": "KL17(2)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "1-H",
+      "end_node": "3-H",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL16_H_R",
+      "floor": "F4_15_60m",
+      "label": "KL16(7)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "3-H",
+      "end_node": "10-H",
+      "support_axes": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 7,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL15_G",
+      "floor": "F4_15_60m",
+      "label": "KL15(9)",
+      "direction": "x",
+      "grid_axis": "G",
+      "start_node": "1-G",
+      "end_node": "10-G",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL14_F",
+      "floor": "F4_15_60m",
+      "label": "KL14(2)",
+      "direction": "x",
+      "grid_axis": "F",
+      "start_node": "1-F",
+      "end_node": "3-F",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL13_E",
+      "floor": "F4_15_60m",
+      "label": "KL13(1)",
+      "direction": "x",
+      "grid_axis": "E",
+      "start_node": "9-E",
+      "end_node": "10-E",
+      "support_axes": [
+        "9",
+        "10"
+      ],
+      "span_count": 1,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL12_D",
+      "floor": "F4_15_60m",
+      "label": "KL12(2)",
+      "direction": "x",
+      "grid_axis": "D",
+      "start_node": "1-D",
+      "end_node": "3-D",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL11_C",
+      "floor": "F4_15_60m",
+      "label": "KL11(2)",
+      "direction": "x",
+      "grid_axis": "C",
+      "start_node": "1-C",
+      "end_node": "3-C",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL10_B",
+      "floor": "F4_15_60m",
+      "label": "KL10(2)",
+      "direction": "x",
+      "grid_axis": "B",
+      "start_node": "1-B",
+      "end_node": "3-B",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL1_X1_LOW",
+      "floor": "F4_15_60m",
+      "label": "KL1(3A)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-B",
+      "end_node": "1-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL3_X2_LOW",
+      "floor": "F4_15_60m",
+      "label": "KL3(3A)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-B",
+      "end_node": "2-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL5_X3_LOW",
+      "floor": "F4_15_60m",
+      "label": "KL5(3A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-B",
+      "end_node": "3-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL2_X1_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL2(2)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-G",
+      "end_node": "1-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL4_X2_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL4(2)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-G",
+      "end_node": "2-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL6_X3_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL6(2A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-G",
+      "end_node": "3-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL7_X4_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "4",
+      "start_node": "4-G",
+      "end_node": "4-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL7_X5_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "5",
+      "start_node": "5-G",
+      "end_node": "5-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL7_X6_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "6",
+      "start_node": "6-G",
+      "end_node": "6-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL7_X7_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "7",
+      "start_node": "7-G",
+      "end_node": "7-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL7_X8_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "8",
+      "start_node": "8-G",
+      "end_node": "8-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL8_X9_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL8(3)",
+      "direction": "y",
+      "grid_axis": "9",
+      "start_node": "9-E",
+      "end_node": "9-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F4_15_60m_BM_KL9_X10_TOP",
+      "floor": "F4_15_60m",
+      "label": "KL9(3A)",
+      "direction": "y",
+      "grid_axis": "10",
+      "start_node": "10-E",
+      "end_node": "10-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL18_J",
+      "floor": "F5_19_50m",
+      "label": "KL18(9)",
+      "direction": "x",
+      "grid_axis": "J",
+      "start_node": "1-J",
+      "end_node": "10-J",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL17_H_L",
+      "floor": "F5_19_50m",
+      "label": "KL17(2)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "1-H",
+      "end_node": "3-H",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL16_H_R",
+      "floor": "F5_19_50m",
+      "label": "KL16(7)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "3-H",
+      "end_node": "10-H",
+      "support_axes": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 7,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL15_G",
+      "floor": "F5_19_50m",
+      "label": "KL15(9)",
+      "direction": "x",
+      "grid_axis": "G",
+      "start_node": "1-G",
+      "end_node": "10-G",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL14_F",
+      "floor": "F5_19_50m",
+      "label": "KL14(2)",
+      "direction": "x",
+      "grid_axis": "F",
+      "start_node": "1-F",
+      "end_node": "3-F",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL13_E",
+      "floor": "F5_19_50m",
+      "label": "KL13(1)",
+      "direction": "x",
+      "grid_axis": "E",
+      "start_node": "9-E",
+      "end_node": "10-E",
+      "support_axes": [
+        "9",
+        "10"
+      ],
+      "span_count": 1,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL12_D",
+      "floor": "F5_19_50m",
+      "label": "KL12(2)",
+      "direction": "x",
+      "grid_axis": "D",
+      "start_node": "1-D",
+      "end_node": "3-D",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL11_C",
+      "floor": "F5_19_50m",
+      "label": "KL11(2)",
+      "direction": "x",
+      "grid_axis": "C",
+      "start_node": "1-C",
+      "end_node": "3-C",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL10_B",
+      "floor": "F5_19_50m",
+      "label": "KL10(2)",
+      "direction": "x",
+      "grid_axis": "B",
+      "start_node": "1-B",
+      "end_node": "3-B",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL1_X1_LOW",
+      "floor": "F5_19_50m",
+      "label": "KL1(3A)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-B",
+      "end_node": "1-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL3_X2_LOW",
+      "floor": "F5_19_50m",
+      "label": "KL3(3A)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-B",
+      "end_node": "2-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL5_X3_LOW",
+      "floor": "F5_19_50m",
+      "label": "KL5(3A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-B",
+      "end_node": "3-F",
+      "support_axes": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL2_X1_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL2(2)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-G",
+      "end_node": "1-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL4_X2_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL4(2)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-G",
+      "end_node": "2-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL6_X3_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL6(2A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-G",
+      "end_node": "3-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL7_X4_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "4",
+      "start_node": "4-G",
+      "end_node": "4-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL7_X5_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "5",
+      "start_node": "5-G",
+      "end_node": "5-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL7_X6_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "6",
+      "start_node": "6-G",
+      "end_node": "6-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL7_X7_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "7",
+      "start_node": "7-G",
+      "end_node": "7-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL7_X8_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL7(2A)",
+      "direction": "y",
+      "grid_axis": "8",
+      "start_node": "8-G",
+      "end_node": "8-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL8_X9_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL8(3)",
+      "direction": "y",
+      "grid_axis": "9",
+      "start_node": "9-E",
+      "end_node": "9-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F5_19_50m_BM_KL9_X10_TOP",
+      "floor": "F5_19_50m",
+      "label": "KL9(3A)",
+      "direction": "y",
+      "grid_axis": "10",
+      "start_node": "10-E",
+      "end_node": "10-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP005"
+    },
+    {
+      "id": "F6_23_10m_BM_KL12_J",
+      "floor": "F6_23_10m",
+      "label": "KL12(9)",
+      "direction": "x",
+      "grid_axis": "J",
+      "start_node": "1-J",
+      "end_node": "10-J",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL11_H_L",
+      "floor": "F6_23_10m",
+      "label": "KL11(2)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "1-H",
+      "end_node": "3-H",
+      "support_axes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL10_H_R",
+      "floor": "F6_23_10m",
+      "label": "KL10(7)",
+      "direction": "x",
+      "grid_axis": "H",
+      "start_node": "3-H",
+      "end_node": "10-H",
+      "support_axes": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 7,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL9_G",
+      "floor": "F6_23_10m",
+      "label": "KL9(9)",
+      "direction": "x",
+      "grid_axis": "G",
+      "start_node": "1-G",
+      "end_node": "10-G",
+      "support_axes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "span_count": 9,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL8_E",
+      "floor": "F6_23_10m",
+      "label": "KL8(1)",
+      "direction": "x",
+      "grid_axis": "E",
+      "start_node": "9-E",
+      "end_node": "10-E",
+      "support_axes": [
+        "9",
+        "10"
+      ],
+      "span_count": 1,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL1_X1",
+      "floor": "F6_23_10m",
+      "label": "KL1(2)",
+      "direction": "y",
+      "grid_axis": "1",
+      "start_node": "1-G",
+      "end_node": "1-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL2_X2",
+      "floor": "F6_23_10m",
+      "label": "KL2(2)",
+      "direction": "y",
+      "grid_axis": "2",
+      "start_node": "2-G",
+      "end_node": "2-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 700
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": null,
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL3_X3",
+      "floor": "F6_23_10m",
+      "label": "KL3(2A)",
+      "direction": "y",
+      "grid_axis": "3",
+      "start_node": "3-G",
+      "end_node": "3-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL4_X4",
+      "floor": "F6_23_10m",
+      "label": "KL4(2A)",
+      "direction": "y",
+      "grid_axis": "4",
+      "start_node": "4-G",
+      "end_node": "4-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL4_X5",
+      "floor": "F6_23_10m",
+      "label": "KL4(2A)",
+      "direction": "y",
+      "grid_axis": "5",
+      "start_node": "5-G",
+      "end_node": "5-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL4_X6",
+      "floor": "F6_23_10m",
+      "label": "KL4(2A)",
+      "direction": "y",
+      "grid_axis": "6",
+      "start_node": "6-G",
+      "end_node": "6-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL4_X7",
+      "floor": "F6_23_10m",
+      "label": "KL4(2A)",
+      "direction": "y",
+      "grid_axis": "7",
+      "start_node": "7-G",
+      "end_node": "7-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL5_X8",
+      "floor": "F6_23_10m",
+      "label": "KL5(2A)",
+      "direction": "y",
+      "grid_axis": "8",
+      "start_node": "8-G",
+      "end_node": "8-J",
+      "support_axes": [
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 2,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL5_X9",
+      "floor": "F6_23_10m",
+      "label": "KL5(3A)",
+      "direction": "y",
+      "grid_axis": "9",
+      "start_node": "9-E",
+      "end_node": "9-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    },
+    {
+      "id": "F6_23_10m_BM_KL7_X10",
+      "floor": "F6_23_10m",
+      "label": "KL7(3A)",
+      "direction": "y",
+      "grid_axis": "10",
+      "start_node": "10-E",
+      "end_node": "10-J",
+      "support_axes": [
+        "E",
+        "G",
+        "H",
+        "J"
+      ],
+      "span_count": 3,
+      "section": {
+        "w": 300,
+        "h": 800
+      },
+      "longitudinal_rebar": null,
+      "stirrup": null,
+      "cantilever": {
+        "suffix": "A",
+        "source": "label_suffix",
+        "modeling_note": "Suffix recorded from drawing label; node_sequence remains physical support sequence."
+      },
+      "sheet_id": "BP007"
+    }
+  ],
+  "text_bindings": [],
+  "materials": {
+    "concrete_grade_beam_slab": [
+      "C30"
+    ],
+    "concrete_grade_wall_column": [
+      "C30",
+      "C35"
+    ],
+    "floor_height_table": [
+      {
+        "floor_label": "1层",
+        "elevation_m": -0.05,
+        "floor_height_m": 3.95,
+        "beam_slab_concrete": null,
+        "wall_column_concrete": "C35",
+        "review_status": "llm_adjudicated",
+        "confidence": 0.96,
+        "provenance": {
+          "evidence_refs": [
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+          ]
+        }
+      },
+      {
+        "floor_label": "2层",
+        "elevation_m": 3.9,
+        "floor_height_m": 3.9,
+        "beam_slab_concrete": "C30",
+        "wall_column_concrete": "C30",
+        "review_status": "llm_adjudicated",
+        "confidence": 0.91,
+        "provenance": {
+          "evidence_refs": [
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+          ]
+        }
+      },
+      {
+        "floor_label": "3层",
+        "elevation_m": 11.7,
+        "floor_height_m": 3.9,
+        "beam_slab_concrete": "C30",
+        "wall_column_concrete": "C30",
+        "review_status": "needs_llm_recheck",
+        "confidence": 0.7,
+        "provenance": {
+          "evidence_refs": [
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+          ],
+          "note": "表中 2层=3.90、3层=11.70 与层高 3.90 存在算术冲突；本轮按标高列用于 FEM，冲突入 QA。"
+        }
+      },
+      {
+        "floor_label": "4层",
+        "elevation_m": 15.6,
+        "floor_height_m": 3.9,
+        "beam_slab_concrete": "C30",
+        "wall_column_concrete": "C30",
+        "review_status": "llm_adjudicated",
+        "confidence": 0.94,
+        "provenance": {
+          "evidence_refs": [
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+          ]
+        }
+      },
+      {
+        "floor_label": "5层",
+        "elevation_m": 19.5,
+        "floor_height_m": 3.6,
+        "beam_slab_concrete": "C30",
+        "wall_column_concrete": "C30",
+        "review_status": "llm_adjudicated",
+        "confidence": 0.94,
+        "provenance": {
+          "evidence_refs": [
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+          ]
+        }
+      },
+      {
+        "floor_label": "6层/屋面层",
+        "elevation_m": 23.1,
+        "floor_height_m": 3.9,
+        "beam_slab_concrete": "C30",
+        "wall_column_concrete": "C30",
+        "review_status": "llm_adjudicated",
+        "confidence": 0.86,
+        "provenance": {
+          "evidence_refs": [
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json",
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP006_5_6层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ7_region_evidence_region_evidence.json"
+          ],
+          "note": "梁图题名为六层梁配筋图；柱图/表中 23.10 为屋面层，本轮映射为 6层 FEM 层。"
+        }
+      },
+      {
+        "floor_label": "屋顶层",
+        "elevation_m": 27.0,
+        "floor_height_m": null,
+        "beam_slab_concrete": null,
+        "wall_column_concrete": null,
+        "review_status": "pending_llm_adjudication",
+        "confidence": 0.7,
+        "provenance": {
+          "evidence_refs": [
+            "projects/378/building_unknown/20260524_121520_648927/v001/work/stage2_primary/BP001_1_4层柱平面布置图/inspect_regions_reread_20260524/column_section_table_KZ1_KZ6_region_evidence_region_evidence.json"
+          ]
+        }
+      }
+    ],
+    "aggregated_annotations": [
+      "BP003/BP004/BP005/BP007 notes visually read beam concrete grade C30.",
+      "BP001 row 1层 column concrete C35; modeled floors F2-F6 use C30 per table/notes."
+    ]
+  },
+  "provenance": {
+    "source_semantic": "projects\\378\\building_unknown\\20260524_121520_648927\\v001\\outputs\\final\\project_semantic.json",
+    "source_schema_version": "cvn.project_semantic.v4E",
+    "converted_at": "2026-05-24T17:17:03",
+    "converter": "paper/gt/_build_gt_from_semantic.py"
+  }
+}

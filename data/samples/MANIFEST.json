@@ -1,0 +1,72 @@
+{
+  "sample_project_id": "378",
+  "difficulty": "hard",
+  "scope": {
+    "floors_covered": 5,
+    "beam_entities": 103,
+    "columns": 208,
+    "released_sheets_count": 6,
+    "internal_blueprint_count": 9
+  },
+  "released_sheets": [
+    {
+      "file": "sheet_01_floors_1_to_4_column_plan.png",
+      "type": "column_plan",
+      "covers_floors": ["F1_ground", "F2_3_90m", "F3_11_70m", "F4_15_60m"],
+      "redaction_applied": ["downsampled_le_200dpi_2400_long_edge", "exif_stripped", "filename_anonymized"],
+      "redaction_pending": ["title_block_masked", "designer_signature_masked", "any_project_code_address_masked"]
+    },
+    {
+      "file": "sheet_02_floor_F2_3_90m_beam_plan.png",
+      "type": "beam_plan",
+      "covers_floors": ["F2_3_90m"],
+      "redaction_applied": ["downsampled_le_200dpi_2400_long_edge", "exif_stripped", "filename_anonymized"],
+      "redaction_pending": ["title_block_masked", "designer_signature_masked", "any_project_code_address_masked"]
+    },
+    {
+      "file": "sheet_03_floor_F3_11_70m_beam_plan.png",
+      "type": "beam_plan",
+      "covers_floors": ["F3_11_70m"],
+      "redaction_applied": ["downsampled_le_200dpi_2400_long_edge", "exif_stripped", "filename_anonymized"],
+      "redaction_pending": ["title_block_masked", "designer_signature_masked", "any_project_code_address_masked"]
+    },
+    {
+      "file": "sheet_04_floors_F4_to_F5_beam_plan.png",
+      "type": "beam_plan",
+      "covers_floors": ["F4_15_60m", "F5_19_50m"],
+      "redaction_applied": ["downsampled_le_200dpi_2400_long_edge", "exif_stripped", "filename_anonymized"],
+      "redaction_pending": ["title_block_masked", "designer_signature_masked", "any_project_code_address_masked"]
+    },
+    {
+      "file": "sheet_05_floors_5_to_6_column_plan.png",
+      "type": "column_plan",
+      "covers_floors": ["F5_19_50m", "F6_23_10m"],
+      "redaction_applied": ["downsampled_le_200dpi_2400_long_edge", "exif_stripped", "filename_anonymized"],
+      "redaction_pending": ["title_block_masked", "designer_signature_masked", "any_project_code_address_masked"]
+    },
+    {
+      "file": "sheet_06_floor_F6_23_10m_beam_plan.png",
+      "type": "beam_plan",
+      "covers_floors": ["F6_23_10m"],
+      "redaction_applied": ["downsampled_le_200dpi_2400_long_edge", "exif_stripped", "filename_anonymized"],
+      "redaction_pending": ["title_block_masked", "designer_signature_masked", "any_project_code_address_masked"]
+    }
+  ],
+  "matching_ground_truth": "../gt/378.gt.json",
+  "matching_metrics": [
+    "../metrics/378__ablation_A3__metrics.json",
+    "../metrics/378__ablation_A4__metrics.json",
+    "../metrics/378__ablation_A5__metrics.json",
+    "../metrics/378__ablation_A6__metrics.json",
+    "../metrics/378__baseline_B1__metrics.json",
+    "../metrics/378__metrics.json"
+  ],
+  "verification_workflow": [
+    "1. Inspect sheet_NN_*.png to see the input modality for one floor.",
+    "2. Cross-reference each sheet to its floor entries in ../gt/378.gt.json (axes, columns, beams).",
+    "3. Optionally: run your own agent on these sheets, then evaluate against the GT with ../../code/eval/evaluate.py, and compare the resulting metric against ../metrics/378__metrics.json (full StructAgent) or any ablation cell."
+  ],
+  "license_note": "These sheets are released under CC BY-NC-ND 4.0 (research-only, no derivatives) per ../../LICENSE.",
+  "source_category": "Category A — teaching / publicly available engineering reference. See ../../DATASHEET.md § 3.",
+  "audit_status": "Automatic redaction complete (6 sheets, max edge 2400 px, ~2.8 MB total). MANUAL title-block / signature / project-code masking still required before release — move each item from redaction_pending to redaction_applied as you complete it. Until all items have empty redaction_pending arrays, DO NOT push to burner GitHub."
+}

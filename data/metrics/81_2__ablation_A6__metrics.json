@@ -1,0 +1,55 @@
+{
+  "schema_version": "cvn.ablation_eval.v1",
+  "project_id": "81_2",
+  "cell": "A6",
+  "exp_root": "<SANDBOX>/exp_A6_3",
+  "semantic_path": "<SANDBOX>/exp_A6_3/.../project_semantic.json",
+  "gt_path": "data/gt/81_2.gt.json",
+  "status": "OK",
+  "floor_alignment": {
+    "F01_1F": "F1_H_n0_100m",
+    "F02_2F": "F2_H_3_550m",
+    "F03_RF": "F_roof_H_7_150m"
+  },
+  "inventory": {
+    "pred": {
+      "floors": 3,
+      "axes_h": 6,
+      "axes_v": 4,
+      "columns": 36,
+      "beams": 9
+    },
+    "gt": {
+      "floors": 3,
+      "axes_h": 5,
+      "axes_v": 4,
+      "columns": 45,
+      "beams": 24
+    }
+  },
+  "axis_grid": {
+    "h_label_iou": 0.8333,
+    "v_label_iou": 1.0,
+    "h_position_max_abs_error": 0.0007,
+    "v_position_max_abs_error": 0.0042
+  },
+  "columns": {
+    "pred_count": 36,
+    "gt_count": 45,
+    "matched": 33,
+    "precision": 0.9167,
+    "recall": 0.7333,
+    "f1": 0.8148,
+    "section_match_rate": 0.8182
+  },
+  "beams": {
+    "pred_count": 9,
+    "gt_count": 24,
+    "matched": 3,
+    "precision": 0.3333,
+    "recall": 0.125,
+    "f1": 0.1818,
+    "topology_match_rate": 1.0,
+    "label_only_f1": 0.5455
+  }
+}

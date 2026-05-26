@@ -1,0 +1,35 @@
+                  StructAgent — Anonymous Supplementary Materials
+                          Dual-license summary
+
+Code (everything under code/ and scripts/):
+  Licensed under the Creative Commons Attribution-NonCommercial 4.0
+  International License (CC BY-NC 4.0).
+  Full text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Data (everything under data/, including metrics JSON, ground-truth JSON,
+and sample drawings):
+  Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives
+  4.0 International License (CC BY-NC-ND 4.0).
+  Full text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+Plain-language summary:
+  - You MAY use, share, and adapt these materials for non-commercial
+    academic research, including reproducing the results in the paper.
+  - You MUST give attribution to the original authors (whose identity
+    will be disclosed upon paper acceptance).
+  - You MAY NOT use these materials, in whole or part, for any commercial
+    purpose, including paid services, commercial software products, or
+    revenue-generating consulting.
+  - For the data: you MAY NOT redistribute modified versions of the
+    drawings or annotations as if they were yours.
+
+Copyright (c) 2026 Anonymous Authors
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OF THEM.
+
+The full text of each CC license governs in case of any conflict with
+this summary.

@@ -1,0 +1,198 @@
+{
+  "schema_version": "cvn.eval.self_audit.v4E.1.0",
+  "mode": "self_audit",
+  "version_root": "<REPO_ROOT>/projects\\378\\building_unknown\\20260524_121520_648927\\v001",
+  "project": {
+    "project_key": "378",
+    "name": "378",
+    "status": "ready_with_adjudication_items"
+  },
+  "inventory": {
+    "building_count": 1,
+    "floor_count": 5,
+    "blueprint_count": 9,
+    "total_beam_entities": 103,
+    "total_beam_fem_segments": 0,
+    "total_columns": 208,
+    "per_floor": [
+      {
+        "floor_id": "F2_3_90m",
+        "elevation_m": 3.9,
+        "beam_entities": 22,
+        "beam_fem_segments": 0,
+        "beams_with_node_sequence": 22,
+        "columns": 44
+      },
+      {
+        "floor_id": "F3_11_70m",
+        "elevation_m": 11.7,
+        "beam_entities": 22,
+        "beam_fem_segments": 0,
+        "beams_with_node_sequence": 22,
+        "columns": 44
+      },
+      {
+        "floor_id": "F4_15_60m",
+        "elevation_m": 15.6,
+        "beam_entities": 22,
+        "beam_fem_segments": 0,
+        "beams_with_node_sequence": 22,
+        "columns": 44
+      },
+      {
+        "floor_id": "F5_19_50m",
+        "elevation_m": 19.5,
+        "beam_entities": 22,
+        "beam_fem_segments": 0,
+        "beams_with_node_sequence": 22,
+        "columns": 44
+      },
+      {
+        "floor_id": "F6_23_10m",
+        "elevation_m": 23.1,
+        "beam_entities": 15,
+        "beam_fem_segments": 0,
+        "beams_with_node_sequence": 15,
+        "columns": 32
+      }
+    ]
+  },
+  "gate": {
+    "ok": true,
+    "status": "ready_with_adjudication_items",
+    "error_count": 0,
+    "warning_count": 0,
+    "quality_gates": {
+      "schema_valid": true,
+      "geometry_valid": true,
+      "evidence_valid": true,
+      "axis_cv_adoption_valid": true,
+      "axis_span_reading_valid": true,
+      "axis_px_span_ratio_valid": true
+    }
+  },
+  "axis_double_audit": {
+    "per_floor": [
+      {
+        "floor_id": "F2_3_90m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 19,
+        "accepted": 18,
+        "rejected": 1,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      },
+      {
+        "floor_id": "F3_11_70m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 19,
+        "accepted": 18,
+        "rejected": 1,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      },
+      {
+        "floor_id": "F4_15_60m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 19,
+        "accepted": 18,
+        "rejected": 1,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      },
+      {
+        "floor_id": "F5_19_50m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 19,
+        "accepted": 18,
+        "rejected": 1,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      },
+      {
+        "floor_id": "F6_23_10m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 14,
+        "accepted": 14,
+        "rejected": 0,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      }
+    ],
+    "project_cv_vs_llm_max_dpx": null
+  },
+  "span_adjudication": {
+    "per_floor": [
+      {
+        "floor_id": "F2_3_90m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading_from_dimension_chain",
+        "x_evidence_count": 2,
+        "y_evidence_count": 2
+      },
+      {
+        "floor_id": "F3_11_70m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading_from_dimension_chain",
+        "x_evidence_count": 2,
+        "y_evidence_count": 2
+      },
+      {
+        "floor_id": "F4_15_60m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading_from_dimension_chain",
+        "x_evidence_count": 2,
+        "y_evidence_count": 2
+      },
+      {
+        "floor_id": "F5_19_50m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading_from_dimension_chain",
+        "x_evidence_count": 2,
+        "y_evidence_count": 2
+      },
+      {
+        "floor_id": "F6_23_10m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading_from_dimension_chain",
+        "x_evidence_count": 2,
+        "y_evidence_count": 2
+      }
+    ]
+  },
+  "c3d": {
+    "present": true,
+    "ok": false,
+    "error_count": 1,
+    "detail": {
+      "column_vertical_continuity": false,
+      "beam_endpoint_support": true,
+      "floor_height_monotonic": true,
+      "component_completeness": true
+    }
+  },
+  "fem": {
+    "present": true,
+    "ok": true,
+    "nodes_count": 252,
+    "elements_count": 526,
+    "concrete_grade": "C30"
+  },
+  "opensees_solver": {
+    "present": true,
+    "analyze_return_code": 0,
+    "ok": true,
+    "max_displacement_m": 0.558218,
+    "max_displacement_at_node": 221
+  }
+}

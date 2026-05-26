@@ -1,0 +1,120 @@
+{
+  "schema_version": "cvn.eval.self_audit.v4E.1.0",
+  "mode": "self_audit",
+  "version_root": "<REPO_ROOT>/projects\\383\\building_unknown\\20260524_121733_258903\\v001",
+  "project": {
+    "project_key": "383",
+    "name": "383",
+    "status": "ready_for_edit"
+  },
+  "inventory": {
+    "building_count": 1,
+    "floor_count": 2,
+    "blueprint_count": 7,
+    "total_beam_entities": 26,
+    "total_beam_fem_segments": 94,
+    "total_columns": 60,
+    "per_floor": [
+      {
+        "floor_id": "F_3_670m",
+        "elevation_m": 3.67,
+        "beam_entities": 13,
+        "beam_fem_segments": 47,
+        "beams_with_node_sequence": 13,
+        "columns": 30
+      },
+      {
+        "floor_id": "F_7_370m",
+        "elevation_m": 7.37,
+        "beam_entities": 13,
+        "beam_fem_segments": 47,
+        "beams_with_node_sequence": 13,
+        "columns": 30
+      }
+    ]
+  },
+  "gate": {
+    "ok": true,
+    "status": "ready_for_edit",
+    "error_count": 0,
+    "warning_count": 0,
+    "quality_gates": {
+      "schema_valid": true,
+      "geometry_valid": true,
+      "evidence_valid": true,
+      "axis_cv_adoption_valid": true,
+      "axis_span_reading_valid": true,
+      "axis_px_span_ratio_valid": true
+    }
+  },
+  "axis_double_audit": {
+    "per_floor": [
+      {
+        "floor_id": "F_3_670m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 13,
+        "accepted": 13,
+        "rejected": 0,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      },
+      {
+        "floor_id": "F_7_370m",
+        "present": true,
+        "provenance": null,
+        "decision_count": 13,
+        "accepted": 13,
+        "rejected": 0,
+        "cv_vs_llm_max_dpx": null,
+        "cv_vs_llm_mean_dpx": null
+      }
+    ],
+    "project_cv_vs_llm_max_dpx": null
+  },
+  "span_adjudication": {
+    "per_floor": [
+      {
+        "floor_id": "F_3_670m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading",
+        "x_evidence_count": 3,
+        "y_evidence_count": 3
+      },
+      {
+        "floor_id": "F_7_370m",
+        "present": true,
+        "status": "completed",
+        "source": "llm_visual_reading",
+        "x_evidence_count": 2,
+        "y_evidence_count": 2
+      }
+    ]
+  },
+  "c3d": {
+    "present": true,
+    "ok": true,
+    "error_count": 0,
+    "detail": {
+      "column_vertical_continuity": true,
+      "beam_endpoint_support": true,
+      "floor_height_monotonic": true,
+      "component_completeness": true
+    }
+  },
+  "fem": {
+    "present": true,
+    "ok": true,
+    "nodes_count": 90,
+    "elements_count": 154,
+    "concrete_grade": "C30"
+  },
+  "opensees_solver": {
+    "present": true,
+    "analyze_return_code": 0,
+    "ok": true,
+    "max_displacement_m": 0.000112,
+    "max_displacement_at_node": 84
+  }
+}
